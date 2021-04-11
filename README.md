@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
+1. Use Ruby 2.6.5:
 
-* Ruby version
+        $ rvm use 2.6.5
 
-* System dependencies
+2. Run bundle install:
 
-* Configuration
+        $ bundle install
 
-* Database creation
+3. Create database:
 
-* Database initialization
+        $ rails db:create
 
-* How to run the test suite
+4. Run migrations:
 
-* Services (job queues, cache servers, search engines, etc.)
+        $ rails db:migrate
 
-* Deployment instructions
+5. Run application server:
 
-* ...
+        $ rails s
